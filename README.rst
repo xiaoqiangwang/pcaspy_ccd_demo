@@ -17,7 +17,7 @@ And then control it with any CA client::
     $ caput -S iMott:FilePath "/tmp"
     $ caput -S iMott:FileName "test"
 
-    # acquire and show th data 
+    # acquire and show the data
     $ caput -c -w 5 iMott:Acquire 1
     $ caget -# 10 iMott:ArrayData
 
@@ -25,7 +25,7 @@ The live image can be displayed by the live.py module::
 
     $ python live.py
 
-The saved HDF5 image files can be opened by viewer module::
+The saved HDF5 image files can be opened by viewer.py module::
 
     $ python viewer.py /tmp
 
